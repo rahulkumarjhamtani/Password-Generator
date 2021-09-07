@@ -15,6 +15,10 @@ body
 .pass h2
 {
     width: 100%;
+    background-color:#130101;
+    padding:10px;
+    font-size:25px;
+    color:white;
 }
 .pass button
 {
@@ -22,11 +26,18 @@ body
     outline:none;
     border:none;
     padding:10px;
-    font-weight: bold;
+    font-weight: 500;
     border-radius: 10px;
     font-family: 'Ubuntu', sans-serif;
     cursor: pointer;
-    margin-top: 2%;
+    margin-top: 1%;
+    background-color:#060933;
+    color:#c8f8ff;
+    transition: background-color 0.5s;
+}
+.pass button:hover
+{
+    background-color:#060933e8;
 }
 .body
 {
@@ -35,5 +46,5 @@ body
     margin-top:7vh;
     margin-bottom:4vh;
     font-weight: bold;
-    color:#060933;
+    color:#01021d;
 }
