@@ -1,7 +1,7 @@
 body
 {
     background: linear-gradient(to right, #C4E0E5, #4CA1AF);
-    color:white;
+    
 }
 .container
 {
@@ -9,7 +9,30 @@ body
     margin:auto;
     text-align: center;
     margin-top: 20vh;
-    background-color: #060933d3;
+    /* background-color: #060933d3; */
     padding: 14px;
-    font-size: 25px;
+}
+.pass h2
+{
+    width: 100%;
+}
+.pass button
+{
+    font-size: 17px;
+    outline:none;
+    border:none;
+    padding:10px;
+    font-weight: bold;
+    border-radius: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    cursor: pointer;
+    margin-top: 2%;
+}
+.body
+{
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-size: 20px;
+    margin-top:7vh;
+    margin-bottom:4vh;
+    color:#060933;
 }
