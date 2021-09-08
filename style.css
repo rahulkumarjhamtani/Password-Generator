@@ -75,3 +75,24 @@ body
     display: flex;
     justify-content: space-between;
 }
+.body button
+{
+    font-size: 25px;
+    outline:none;
+    border:none;
+    padding:12px;
+    font-weight: 700;
+    border-radius: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    cursor: pointer;
+    margin-top: 5vh;
+    background-color:#060933;
+    color:#c8f8ff;
+    transition: background-color 0.5s, font-size 0.5s, transform 0.3s;
+}
+.body button:hover
+{
+    font-size:30px;
+    transform: rotate(-10deg);
+    background-color:#060933e8;
+}
