@@ -9,16 +9,35 @@ body
     margin:auto;
     text-align: center;
     margin-top: 20vh;
-    /* background-color: #060933d3; */
     padding: 14px;
 }
 .pass h2
 {
     width: 100%;
     background-color:#130101;
+    word-wrap: break-word;
     padding:10px;
     font-size:25px;
-    color:white;
+    border-radius: 30px;
+    color:rgb(225, 245, 255);
+    font-family: 'Noto Sans KR', sans-serif;
+    letter-spacing: 2px;
+}
+.pass .copy
+{
+    height: 91px;
+    width: 425px;
+    position: fixed;
+    top: 20%;
+    left: 35.2%;
+    background-color: rgba(255, 0, 0, 0.5);
+    opacity: 0;
+    transition: opacity 0.2s;
+    text-align: right;
+}
+.pass .copy:hover
+{
+    opacity: 1;
 }
 .pass button
 {
@@ -33,6 +52,9 @@ body
     margin-top: 1%;
     background-color:#060933;
     color:#c8f8ff;
+    position: fixed;
+    top: 18.5%;
+    left: 60%; 
     transition: background-color 0.5s;
 }
 .pass button:hover
