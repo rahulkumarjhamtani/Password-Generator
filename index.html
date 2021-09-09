@@ -46,9 +46,18 @@
                 <label for="symbol">Symbols {#,$,%,..}</label>
                 <input id="symbol" type="checkbox" />
             </div>
-            <button>Generate</button>
+            <button id="generate">Generate</button>
         </div>
     </div>
 </body>
-<script src="script.js"></script>
+<script src="script.js">
+    var pass = document.getElementById("pass"); 
+    var copy = document.getElementById("copy");
+    var len = document.getElementById("len");
+    var upper = document.getElementById("upper");
+    var lower = document.getElementById("lower");
+    var number = document.getElementById("number");
+    var symbol = document.getElementById("symbol");
+    var generate = document.getElementById("generate");
+</script>
 </html>
