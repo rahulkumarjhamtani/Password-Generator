@@ -60,7 +60,26 @@
     var symbol = document.getElementById("symbol");
     var generate = document.getElementById("generate");
 
-    var upperletters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
-    var lowerletters = 'abcdefghijklmnopqrstuvwxyz';
+    var upperletters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    var lowerletters = "abcdefghijklmnopqrstuvwxyz";
+    var numbers = "0123456789";
+    var symbols = "!@#$%^&*()_-=+";
+
+    function getupper() {
+        return upperletters[Math.floor(Math.random() * upperletters.length)];
+    }
+
+    function getlower() {
+        return lowerletters[Math.floor(Math.random() * lowerletters.length)];
+    }
+
+    function getnumber() {
+        return numbers[Math.floor(Math.random() * numbers.length)];
+    }
+
+    function getsymbol() {
+        return sumbols[Math.floor(Math.random() * sumbols.length)];
+    }
+
 </script>
 </html>
