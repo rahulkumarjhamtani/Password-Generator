@@ -35,7 +35,7 @@ body
     margin-top: 1%;
     color:#060933;
     background-color:#ebff34;
-    position: fixed;
+    position: absolute;
     top: 20%;
     left: 60%; 
     transition: background-color 0.5s;
