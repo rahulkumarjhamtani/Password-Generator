@@ -1,7 +1,6 @@
 body
 {
     background: linear-gradient(to right, #C4E0E5, #4CA1AF);
-    
 }
 .container
 {
@@ -61,6 +60,10 @@ body
 {
     background-color:#e946ffdc;
 }
+input[type="number"]
+{
+    word-wrap: break-word;
+}
 .body
 {
     font-family: 'IBM Plex Sans Arabic', sans-serif;
@@ -94,4 +97,32 @@ body
     font-size:27px;
     transform: rotate(-7deg);
     background-color:#060933e8;
+}
+@media (max-width:575px)
+{
+    .container
+    {
+        width: 80%;
+    }
+}
+@media (min-width:576px) and (max-width:767px)
+{
+    .container
+    {
+        width: 60%;
+    }
+}
+@media (min-width:768px) and (max-width:991px)
+{
+    .container
+    {
+        width: 50%;
+    }
+}
+@media (min-width:992px) and (max-width:1199px)
+{
+    .container
+    {
+        width: 40%;
+    }
 }
