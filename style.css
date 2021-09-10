@@ -22,22 +22,6 @@ body
     font-family: 'Noto Sans KR', sans-serif;
     letter-spacing: 2px;
 }
-.pass .copy
-{
-    height: 91px;
-    width: 425px;
-    position: fixed;
-    top: 20%;
-    left: 35.2%;
-    /* background-color: rgba(255, 0, 0, 0.5); */
-    opacity: 0;
-    transition: opacity 0.2s;
-    text-align: right;
-}
-.pass .copy:hover
-{
-    opacity: 1;
-}
 .pass button
 {
     font-size: 17px;
@@ -52,13 +36,19 @@ body
     color:#060933;
     background-color:#ebff34;
     position: fixed;
-    top: 18.5%;
+    top: 20%;
     left: 60%; 
     transition: background-color 0.5s;
+    display: none;
 }
 .pass button:hover
 {
     background-color:#e946ffdc;
+    display:block;
+}
+.tocopy:hover + .hide
+{
+    display:block;
 }
 input[type="number"]
 {
