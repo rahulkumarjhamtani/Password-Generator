@@ -43,7 +43,7 @@ body
 }
 .pass button:hover
 {
-    background-color:#e946ffdc;
+    background-color:#ee71ffdc;
     display:block;
 }
 .tocopy:hover + .hide
