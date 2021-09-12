@@ -68,9 +68,9 @@
         return pwd[Math.floor(Math.random() * pwd.length)];
     }
 
-    generate.addEventListener('click', generatepassword);
+    generate.addEventListener("click", generatepassword);
 
-    copy.addEventListener('click', () => {
+    copy.addEventListener("click", () => {
         var textarea = document.createElement('textarea');
         var password = pass.innerText;
 
@@ -78,4 +78,11 @@
         {
             return;
         }
+
+        textarea.value = password;
+        document.body.appendChild(textarea);
+        textarea.select();
+        document.execCommand("copy");
+        textarea.remove();
+        alert("Password copied to clipboard");
     });
