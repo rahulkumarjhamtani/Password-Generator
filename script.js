@@ -69,3 +69,13 @@
     }
 
     generate.addEventListener('click', generatepassword);
+
+    copy.addEventListener('click', () => {
+        var textarea = document.createElement('textarea');
+        var password = pass.innerText;
+
+        if(!password)
+        {
+            return;
+        }
+    });
