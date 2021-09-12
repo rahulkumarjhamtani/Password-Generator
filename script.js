@@ -63,6 +63,8 @@
             pwd.push(getsymbol());
         }
 
+        if (pwd.length === 0) return "";
+
         return pwd[Math.floor(Math.random() * pwd.length)];
     }
 
