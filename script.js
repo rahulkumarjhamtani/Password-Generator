@@ -10,7 +10,7 @@
     var upperletters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
     var lowerletters = "abcdefghijklmnopqrstuvwxyz";
     var numbers = "0123456789";
-    var symbols = "!@#$%^&*()_-=+";
+    var symbols = "!@#$%^&*()_-=+.?/[]{}',;";
 
     function getupper() {
         return upperletters[Math.floor(Math.random() * upperletters.length)];
